@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hello">Hello World, wallie!</string>
+    <string name="app_name">walli-e</string>
+    <string name="app_name2">WallpaperJob</string>
+    
+    <string name="show_control">Enable or Disable walli-e</string>
+    <string name="show_interval">Interval</string>
+    <string name="show_save">Save Settings</string>
+    <string name="show_dir">Choose Folder</string>
+    <string name="show_select">Select This Folder</string>
+    <string name="show_shuffle">Enable or Disable Shuffle Mode</string>     
+    
+    
+</resources>

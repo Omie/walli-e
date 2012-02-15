@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="com.omie.wallie"
+      android:versionCode="2"
+      android:versionName="1.1">
+      
+    <uses-permission android:name="android.permission.SET_WALLPAPER" />
+    
+    <application android:icon="@drawable/icon" android:label="@string/app_name"
+    android:debuggable="false">
+        <activity android:name=".wallie"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+		
+        <activity android:name=".SelectFolder"
+                  android:label="@string/app_name2">            
+        </activity>
+        
+		<receiver android:name=".SetWallpaperJob" />
+	
+    </application>
+    <uses-sdk android:minSdkVersion="7" />
+
+</manifest> 

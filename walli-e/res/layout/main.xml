@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    >
+    <ScrollView android:id="@+id/ScrollView01"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+		
+		<LinearLayout android:id="@+id/LinearLayout02"
+			android:layout_width="fill_parent"
+			android:layout_height="fill_parent"
+			android:orientation="vertical">
+		
+	        <CheckBox android:id="@+id/show_control"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content"        
+		        android:text="Enable/Disable walli-e" />
+		       
+		    <CheckBox android:id="@+id/show_shuffle"
+		    	android:layout_width="fill_parent"
+		    	android:layout_height="wrap_content"    
+		    	android:text="Enable/Disable Shuffle Mode" />
+		
+		     <TextView
+		 		android:id="@+id/show_label1"
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content"
+		    	android:text="Enter Interval(minutes):"
+		    />        
+		 	<EditText android:id="@+id/show_interval"
+		              android:layout_width="fill_parent"
+		              android:layout_height="wrap_content"  
+		              android:digits="0123456789"           
+		              android:text="5" />
+		     
+		     <TextView
+		 		android:id="@+id/show_label2"
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content"
+		    	android:text="Current Directory:"
+		    />
+		    <TextView
+		 		android:id="@+id/show_disp_dir"
+		    	android:layout_width="fill_parent" 
+		    	android:layout_height="wrap_content"
+		    />
+			<Button android:id="@+id/show_dir"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:text="@string/show_dir">    
+		    </Button>
+		    
+		    <Button android:id="@+id/show_save"
+		        android:layout_width="fill_parent"
+		        android:layout_height="wrap_content" 
+		        android:text="@string/show_save">        
+		    </Button>
+    	</LinearLayout>
+    </ScrollView> 
+</LinearLayout>
